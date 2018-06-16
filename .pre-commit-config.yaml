@@ -9,12 +9,7 @@
   - id: double-quote-string-fixer
   - id: end-of-file-fixer
   - id: flake8
+    exclude: tutorial/tutorial/settings.py
   - id: name-tests-test
   - id: requirements-txt-fixer
   - id: trailing-whitespace
-
-- repo: git://github.com/chewse/pre-commit-mirrors-pydocstyle
-  sha: v2.1.1
-  hooks:
-  - id: pydocstyle
-    exclude: blog/migrations
